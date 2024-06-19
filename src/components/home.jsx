@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../assests/SaahoTeaser.mp4'
+import video from '../assests/SaahoTeaser-compressed.mp4'
 import './home.css'
 import Moviecard from './moviecard'
 
@@ -15,6 +15,7 @@ function Home({ setmovieName, movieData }) {
             <video className='background' autoPlay loop muted>
                 <source src={video} />
             </video>
+
             <div className='searchBar'>
                 <form onSubmit={sendName} className="input-group mb-3">
                     <input name='inputText' type="text" className="form-control" placeholder="Search for a Movie..." aria-label="Recipient's username" aria-describedby="button-addon2" />
@@ -29,3 +30,4 @@ function Home({ setmovieName, movieData }) {
 }
 
 export default Home
+
