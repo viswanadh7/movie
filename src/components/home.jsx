@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../assests/SaahoTeaser-compressed.mp4'
+import video from '../assests/SaahoTeaser-compressed-2.mp4'
 import './home.css'
 import Moviecard from './moviecard'
 
