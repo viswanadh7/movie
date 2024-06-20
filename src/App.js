@@ -18,7 +18,7 @@ function App() {
                 console.log(data);
                 showMovieData(data);
             });
-    }, [movieName]);
+    }, [url]);
 
     // useEffect(() => {
     //   fetch(plot_url).then(res => res.json()).then(data => console.log(data))

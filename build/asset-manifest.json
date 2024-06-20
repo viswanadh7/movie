@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.c95e0e29.css",
-    "main.js": "/static/js/main.1fb25d6d.js",
+    "main.js": "/static/js/main.1ae61bd6.js",
     "static/js/453.ec34d0ff.chunk.js": "/static/js/453.ec34d0ff.chunk.js",
     "static/media/SaahoTeaser-compressed-2.mp4": "/static/media/SaahoTeaser-compressed-2.dd13622c4e24800ebadf.mp4",
     "index.html": "/index.html",
     "main.c95e0e29.css.map": "/static/css/main.c95e0e29.css.map",
-    "main.1fb25d6d.js.map": "/static/js/main.1fb25d6d.js.map",
+    "main.1ae61bd6.js.map": "/static/js/main.1ae61bd6.js.map",
     "453.ec34d0ff.chunk.js.map": "/static/js/453.ec34d0ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c95e0e29.css",
-    "static/js/main.1fb25d6d.js"
+    "static/js/main.1ae61bd6.js"
   ]
 }

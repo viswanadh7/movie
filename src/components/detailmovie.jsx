@@ -14,10 +14,10 @@ function Detailmovie() {
 
     useEffect(() => {
         fetch(url).then(res => res.json()).then(data => {
-            console.log(data);
+            // console.log(data);
             setDetailMovie(data);
         })
-    }, [movieID])
+    }, [url])
 
 
     return (

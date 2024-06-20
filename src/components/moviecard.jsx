@@ -10,7 +10,7 @@ function Moviecard({ movieData }) {
         let image = movie.Poster;
         return (
             <div className="card each-card" >
-                <img src={image === 'N/A' ? NoImage : image} className="card-img-top" />
+                <img src={image === 'N/A' ? NoImage : image} className="card-img-top" alt='Not found' />
                 <div className="card-body d-flex flex-column justify-content-end">
                     <h5 className="card-title">{movie.Title}</h5>
                     <p className="card-text">Year : {movie.Year}</p>
@@ -22,7 +22,7 @@ function Moviecard({ movieData }) {
 
     return (
         <div className='moviecard'>
-            {movieData.Search.map((movie) => <CreateCard movie={movie} />)}
+            {movieData.Search.map((movie) => <CreateCard key={movie.imdbID} movie={movie} />)}
             {/* {console.log(movieData)}
             {movieData.Search.map((index) => { console.log(index) })} */}
         </div>
