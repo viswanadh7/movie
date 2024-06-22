@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../assests/SaahoTeaser-compressed-2.mp4'
+// import video from '../assests/SaahoTeaser-compressed-2.mp4'
 import './home.css'
 import Moviecard from './moviecard'
 
@@ -12,9 +12,9 @@ function Home({ setmovieName, movieData }) {
     }
     return (
         <div>
-            <video className='background' autoPlay loop muted>
+            {/* <video className='background' autoPlay loop muted>
                 <source src={video} />
-            </video>
+            </video> */}
 
             <div className='searchBar'>
                 <form onSubmit={sendName} className="input-group mb-3">
