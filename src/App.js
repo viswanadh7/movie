@@ -12,12 +12,16 @@ function App() {
     //let plot_url = `http://www.omdbapi.com/?t=${movieName}&apikey=b06c5dd5`
 
     useEffect(() => {
-        fetch(url)
-            .then((res) => res.json())
-            .then((data) => {
-                console.log(data);
-                showMovieData(data);
-            });
+        try {
+            fetch(url)
+                .then((res) => res.json())
+                .then((data) => {
+                    console.log(data);
+                    showMovieData(data);
+                });
+        } catch (error) {
+            console.log(error);
+        }
     }, [url]);
 
     // useEffect(() => {
